@@ -1,6 +1,6 @@
 {
   "name": "@openapi-typescript-infra/coconfig",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Default Node.js configuration files for openapi-typescript-infra projects",
   "main": "build/index.js",
   "types": "build/index.d.ts",
