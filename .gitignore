@@ -60,6 +60,7 @@ Thumbs.db
 .npmignore
 tsconfig.json
 tsconfig.build.json
-jest.config.js
-.prettierrc.js
-.eslintrc.js
+.commitlintrc.json
+jest.config.cjs
+.prettierrc.cjs
+.eslintrc.cjs

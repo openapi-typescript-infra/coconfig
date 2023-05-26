@@ -4,10 +4,12 @@ export const tsconfig = {
   'ts-node': {
     transpileOnly: true,
     files: true,
+    esm: true,
   },
   compilerOptions: {
     lib: ['ES2022', 'DOM'],
-    module: 'CommonJS',
+    module: 'Node16',
+    moduleResolution: 'node16',
     target: 'ES2022',
     declaration: true,
     sourceMap: true,
@@ -15,7 +17,6 @@ export const tsconfig = {
     incremental: true,
     isolatedModules: true,
     strict: true,
-    moduleResolution: 'NodeNext',
     baseUrl: './src',
     allowSyntheticDefaultImports: true,
     esModuleInterop: true,

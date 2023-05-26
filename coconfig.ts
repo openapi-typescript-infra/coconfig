@@ -1,4 +1,4 @@
-import { config } from './src';
+import { config } from './src/index';
 
 // During the initial creation of tsconfig. sythentic default imports are not allowed.
 // This is here so we can handle both pre and post initial creation
