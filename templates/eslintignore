@@ -5,3 +5,4 @@ jest.config.js
 coconfig.?s
 src/generated
 node_modules
+migrations/
