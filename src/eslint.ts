@@ -1,5 +1,9 @@
 export const eslintRc = {
   root: true,
+  env: {
+    es2021: true,
+    node: true,
+  },
   extends: [
     'eslint:recommended',
     'plugin:import/recommended',
@@ -9,6 +13,7 @@ export const eslintRc = {
   plugins: ['jest'],
   parserOptions: {
     project: './tsconfig.json',
+    sourceType: 'module',
   },
   rules: {
     'import/prefer-default-export': [0],
