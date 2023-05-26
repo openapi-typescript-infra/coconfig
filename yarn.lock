@@ -1419,7 +1419,7 @@ __metadata:
     "@types/node": ^18.16.14
     "@typescript-eslint/eslint-plugin": ^5.59.7
     "@typescript-eslint/parser": ^5.59.7
-    coconfig: ^0.9.2
+    coconfig: ^0.10.1
     eslint: ^8.41.0
     eslint-config-prettier: ^8.8.0
     eslint-plugin-import: ^2.27.5
@@ -2771,9 +2771,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"coconfig@npm:^0.9.2":
-  version: 0.9.2
-  resolution: "coconfig@npm:0.9.2"
+"coconfig@npm:^0.10.1":
+  version: 0.10.1
+  resolution: "coconfig@npm:0.10.1"
   dependencies:
     dotgitignore: ^2.1.0
     find-up: ^4.1.0
@@ -2785,7 +2785,7 @@ __metadata:
       optional: true
   bin:
     coconfig: build/bin/cli.js
-  checksum: 2371f1d724109538c5360638f7dcab6e6105529bc7ffa1a60eed2cb5e7cc944325b07031d15acb252b36a5d5782112b6229342209910a84608da16e94e6c64a1
+  checksum: 085670b7d99258a342e5d94401d5082778df298dd7dd9e18e3cc5e1f8945a71ad5b9469ee4bae96b2d99967b90d04eb8cba0d945e0e13714a2575f33cef8626b
   languageName: node
   linkType: hard
 

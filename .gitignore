@@ -64,3 +64,6 @@ tsconfig.build.json
 jest.config.cjs
 .prettierrc.cjs
 .eslintrc.cjs
+jest.config.js
+.prettierrc.js
+.eslintrc.js

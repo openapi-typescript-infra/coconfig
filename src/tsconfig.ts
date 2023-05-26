@@ -4,12 +4,11 @@ export const tsconfig = {
   'ts-node': {
     transpileOnly: true,
     files: true,
-    esm: true,
   },
   compilerOptions: {
     lib: ['ES2022', 'DOM'],
-    module: 'Node16',
-    moduleResolution: 'node16',
+    module: 'CommonJS',
+    moduleResolution: 'NodeNext',
     target: 'ES2022',
     declaration: true,
     sourceMap: true,
