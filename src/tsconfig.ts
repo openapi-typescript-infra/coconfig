@@ -20,6 +20,9 @@ export const tsconfig = {
     allowSyntheticDefaultImports: true,
     esModuleInterop: true,
     experimentalDecorators: true,
+    paths: {
+      '@/*': ['./*'],
+    },
   },
 };
 
