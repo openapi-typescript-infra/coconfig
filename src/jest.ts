@@ -5,4 +5,7 @@ export const jestConfig: JestConfigWithTsJest = {
   preset: 'ts-jest',
   testEnvironment: 'node',
   testRegex: '(\\.|/)(test|spec)\\.[jt]sx?$',
+  moduleNameMapper: {
+    '^@/(.*)$': '<rootDir>/$1'
+  }
 };
