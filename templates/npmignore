@@ -5,6 +5,11 @@
 .yarnrc.yml
 .yarn
 
+src/**/*.spec.ts
+src/**/*.test.ts
+/__tests__
+/__mocks__
+
 # Stock
 *.seed
 *.log
