@@ -1,5 +1,5 @@
 export const tsconfig = {
-  include: ['@types/**/*', 'src/**/*', '__tests__/**/*', '__mocks__/**/*', 'coconfig.ts'],
+  include: ['@types/**/*', 'src/**/*', '__tests__/**/*', '__mocks__/**/*', 'coconfig.ts', 'vitest.config.ts'],
   exclude: ['node_modules', 'build'],
   'ts-node': {
     transpileOnly: true,

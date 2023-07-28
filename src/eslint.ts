@@ -1,3 +1,5 @@
+import { hasPackage } from './has-package';
+
 export const eslintRc = {
   root: true,
   env: {
@@ -10,7 +12,7 @@ export const eslintRc = {
     'plugin:import/typescript',
     'prettier',
   ],
-  plugins: ['jest'],
+  plugins: hasPackage('jest') ? ['jest'] : [],
   parserOptions: {
     project: './tsconfig.json',
     sourceType: 'module',

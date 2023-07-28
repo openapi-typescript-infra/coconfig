@@ -7,5 +7,5 @@ export const jestConfig: JestConfigWithTsJest = {
   testRegex: '(\\.|/)(test|spec)\\.[jt]sx?$',
   moduleNameMapper: {
     '^@/(.*)$': '<rootDir>/$1'
-  }
+  },
 };
