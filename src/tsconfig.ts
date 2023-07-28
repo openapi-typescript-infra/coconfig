@@ -34,5 +34,6 @@ export const tsconfigBuild = {
     '__tests__/**/*.ts',
     '__mocks__/**/*.ts',
     'coconfig.ts',
+    'vitest.config.ts',
   ],
 };
