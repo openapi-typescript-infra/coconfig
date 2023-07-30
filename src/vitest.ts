@@ -7,5 +7,12 @@ export function vitestConfig() {
       watch: false,
       exclude: ['.trunk', ...configDefaults.exclude],
     },
+    resolve: {
+      alias: [
+        // This is a bit odd because it's relative to CWD, not the
+        // vitest.config.ts file, but we don't know that path.
+        { find: '@', replacement: 'src' },
+      ],
+    },
   });
 }
