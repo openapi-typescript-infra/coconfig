@@ -1,3 +1,10 @@
+# [4.1.0](https://github.com/openapi-typescript-infra/coconfig/compare/v4.0.2...v4.1.0) (2023-09-01)
+
+
+### Features
+
+* **ts:** use NodeNext for module and resolution ([a80d073](https://github.com/openapi-typescript-infra/coconfig/commit/a80d073bef0f03eb7bb3dede242b3f3fdf120714))
+
 ## [4.0.2](https://github.com/openapi-typescript-infra/coconfig/compare/v4.0.1...v4.0.2) (2023-08-17)
 
 
