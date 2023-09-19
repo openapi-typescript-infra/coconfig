@@ -1,4 +1,4 @@
-export const eslintRc = {
+const baseConfig = {
   root: true,
   env: {
     es2021: true,
@@ -39,3 +39,7 @@ export const eslintRc = {
     },
   ],
 };
+
+export const eslintRc: typeof baseConfig & {
+  settings?: Record<string, object>;
+} = baseConfig;
