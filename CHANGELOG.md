@@ -1,3 +1,10 @@
+# [4.2.0](https://github.com/openapi-typescript-infra/coconfig/compare/v4.1.0...v4.2.0) (2023-09-19)
+
+
+### Features
+
+* **esm:** attempt to detect ESM usage and adjust configs ([829a52b](https://github.com/openapi-typescript-infra/coconfig/commit/829a52b998f0927781d3e2e0fe25d46d3ffc248c))
+
 # [4.1.0](https://github.com/openapi-typescript-infra/coconfig/compare/v4.0.2...v4.1.0) (2023-09-01)
 
 
