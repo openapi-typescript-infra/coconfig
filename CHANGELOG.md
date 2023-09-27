@@ -1,3 +1,10 @@
+## [4.2.1](https://github.com/openapi-typescript-infra/coconfig/compare/v4.2.0...v4.2.1) (2023-09-27)
+
+
+### Bug Fixes
+
+* **k6:** ignore k6 performance testing files ([2b4b444](https://github.com/openapi-typescript-infra/coconfig/commit/2b4b444918e326034f85d50d85c9667dc1c95ed0))
+
 # [4.2.0](https://github.com/openapi-typescript-infra/coconfig/compare/v4.1.0...v4.2.0) (2023-09-19)
 
 
