@@ -7,3 +7,4 @@ src/generated
 node_modules
 migrations/
 .yarn/
+**/*.k6.js
