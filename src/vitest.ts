@@ -5,7 +5,7 @@ export function vitestConfig() {
   return defineConfig({
     test: {
       watch: false,
-      exclude: ['.trunk', ...configDefaults.exclude],
+      exclude: ['.trunk', '**/build/**', ...configDefaults.exclude],
     },
     resolve: {
       alias: [
