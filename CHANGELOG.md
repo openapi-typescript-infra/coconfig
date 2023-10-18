@@ -1,3 +1,10 @@
+## [4.2.2](https://github.com/openapi-typescript-infra/coconfig/compare/v4.2.1...v4.2.2) (2023-10-18)
+
+
+### Bug Fixes
+
+* **vitest:** ignore build and dist directories ([dc97482](https://github.com/openapi-typescript-infra/coconfig/commit/dc97482398871ad137f3f5bdf43f60fd20d77efc))
+
 ## [4.2.1](https://github.com/openapi-typescript-infra/coconfig/compare/v4.2.0...v4.2.1) (2023-09-27)
 
 
