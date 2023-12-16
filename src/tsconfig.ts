@@ -6,6 +6,7 @@ export const tsconfig = {
     '__mocks__/**/*',
     'coconfig.ts',
     'vitest.config.ts',
+    'tsup.config.ts',
   ],
   exclude: ['node_modules', 'build'],
   'ts-node': {
@@ -30,6 +31,7 @@ export const tsconfig = {
     paths: {
       '@/*': ['./*'],
     },
+    skipLibCheck: true,
   },
 };
 
