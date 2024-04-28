@@ -1,3 +1,11 @@
+## [4.3.1](https://github.com/openapi-typescript-infra/coconfig/compare/v4.3.0...v4.3.1) (2024-04-28)
+
+
+### Bug Fixes
+
+* **ci:** bump to node20 ([2f5b35c](https://github.com/openapi-typescript-infra/coconfig/commit/2f5b35c0c4161b5b16d9d1afb64896e53b25584d))
+* **vitest:** use setup file if present ([40092bb](https://github.com/openapi-typescript-infra/coconfig/commit/40092bb6f064bf1f6dafa0ed3a8f38df088e0543))
+
 # [4.3.0](https://github.com/openapi-typescript-infra/coconfig/compare/v4.2.2...v4.3.0) (2023-12-16)
 
 
