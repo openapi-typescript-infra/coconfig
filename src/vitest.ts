@@ -21,5 +21,9 @@ export function vitestConfig() {
     config.test.globalSetup = '__tests__/vitest.setup.ts';
   }
 
+  if (fs.existsSync('__tests__/vitest.test-setup.ts')) {
+    config.test.setupFiles = '__tests__/vitest.test-setup.ts';
+  }
+
   return defineConfig(config);
 }
