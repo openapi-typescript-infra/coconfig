@@ -1,18 +1,25 @@
+import fs from 'fs';
+import path from 'path';
+
 export function vitestConfig() {
   // eslint-disable-next-line @typescript-eslint/no-var-requires
   const { configDefaults, defineConfig } = require('vitest/config');
 
-  return defineConfig({
+  const config: typeof configDefaults = {
     test: {
       watch: false,
       exclude: ['.trunk', '**/build/**', ...configDefaults.exclude],
     },
     resolve: {
-      alias: [
-        // This is a bit odd because it's relative to CWD, not the
-        // vitest.config.ts file, but we don't know that path.
-        { find: '@', replacement: 'src' },
-      ],
+      alias: {
+        '@': path.resolve('./src'),
+      },
     },
-  });
+  };
+
+  if (fs.existsSync('__tests__/vitest.setup.ts')) {
+    config.test.globalSetup = '__tests__/vitest.setup.ts';
+  }
+
+  return defineConfig(config);
 }
