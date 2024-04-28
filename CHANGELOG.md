@@ -1,3 +1,10 @@
+# [4.4.0](https://github.com/openapi-typescript-infra/coconfig/compare/v4.3.1...v4.4.0) (2024-04-28)
+
+
+### Features
+
+* **vitest:** look for setup files as well as global setup ([a821003](https://github.com/openapi-typescript-infra/coconfig/commit/a821003f30e3dd6e689d48e3b9b72d1c2528951a))
+
 ## [4.3.1](https://github.com/openapi-typescript-infra/coconfig/compare/v4.3.0...v4.3.1) (2024-04-28)
 
 
