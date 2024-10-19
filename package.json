@@ -60,7 +60,6 @@
     "eslint-plugin-import": "^2.29.1",
     "pinst": "^3.0.0",
     "semantic-release": "^23.0.8",
-    "ts-node": "^10.9.2",
     "typescript": "^5.4.5",
     "vitest": "^1.5.2"
   },

@@ -59,7 +59,6 @@ try {
 
     tsconfig.compilerOptions.module = 'Node16';
     tsconfig.compilerOptions.moduleResolution = 'node16';
-    (tsconfig['ts-node'] as Record<string, boolean>).esm = true;
   }
 } catch (error) {
   // Do nothing

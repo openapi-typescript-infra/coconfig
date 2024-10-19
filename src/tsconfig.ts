@@ -9,10 +9,6 @@ export const tsconfig = {
     'tsup.config.ts',
   ],
   exclude: ['node_modules', 'build'],
-  'ts-node': {
-    transpileOnly: true,
-    files: true,
-  },
   compilerOptions: {
     lib: ['ES2022', 'DOM'],
     module: 'NodeNext',
