@@ -1,5 +1,4 @@
 import fs from 'fs';
-import path from 'path';
 
 export function vitestConfig() {
   // eslint-disable-next-line @typescript-eslint/no-var-requires
@@ -9,11 +8,6 @@ export function vitestConfig() {
     test: {
       watch: false,
       exclude: ['.trunk', '**/build/**', ...configDefaults.exclude],
-    },
-    resolve: {
-      alias: {
-        '@': path.resolve('./src'),
-      },
     },
   };
 
