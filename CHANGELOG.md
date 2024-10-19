@@ -1,3 +1,10 @@
+# [4.5.0](https://github.com/openapi-typescript-infra/coconfig/compare/v4.4.0...v4.5.0) (2024-10-19)
+
+
+### Features
+
+* dump Typescript path aliasing in favor of built in ESM aliases ([ba4bb86](https://github.com/openapi-typescript-infra/coconfig/commit/ba4bb862ceef095dac822959c65bd2271d4a82f7))
+
 # [4.4.0](https://github.com/openapi-typescript-infra/coconfig/compare/v4.3.1...v4.4.0) (2024-04-28)
 
 
