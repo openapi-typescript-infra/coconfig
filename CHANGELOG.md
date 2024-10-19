@@ -1,3 +1,10 @@
+# [4.6.0](https://github.com/openapi-typescript-infra/coconfig/compare/v4.5.0...v4.6.0) (2024-10-19)
+
+
+### Features
+
+* remove ts-node in favor of tsx ([108a3c6](https://github.com/openapi-typescript-infra/coconfig/commit/108a3c63d8830bbd1f97033e5ccaeb87efaf7a74))
+
 # [4.5.0](https://github.com/openapi-typescript-infra/coconfig/compare/v4.4.0...v4.5.0) (2024-10-19)
 
 
