@@ -9,7 +9,7 @@
     "build": "tsc -p tsconfig.build.json",
     "clean": "yarn dlx rimraf ./build",
     "lint": "eslint .",
-    "postinstall": "coconfig"
+    "postinstall": "yarn coconfig"
   },
   "engines": {
     "node": ">12.0.0"
