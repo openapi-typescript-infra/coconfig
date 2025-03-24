@@ -65,3 +65,6 @@ try {
 }
 
 export const config = baseConfig;
+
+// eslint-disable-next-line import/no-default-export
+export default config;
