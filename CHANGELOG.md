@@ -1,3 +1,10 @@
+## [4.7.1](https://github.com/openapi-typescript-infra/coconfig/compare/v4.7.0...v4.7.1) (2025-03-24)
+
+
+### Bug Fixes
+
+* add default export ([e67bab1](https://github.com/openapi-typescript-infra/coconfig/commit/e67bab1d6c421881414cdabbbded6cb10efcc7a4))
+
 # [4.7.0](https://github.com/openapi-typescript-infra/coconfig/compare/v4.6.0...v4.7.0) (2025-03-24)
 
 
