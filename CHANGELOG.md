@@ -1,3 +1,16 @@
+# [4.7.0](https://github.com/openapi-typescript-infra/coconfig/compare/v4.6.0...v4.7.0) (2025-03-24)
+
+
+### Bug Fixes
+
+* add a tsconfig for inception problem ([fc0a25e](https://github.com/openapi-typescript-infra/coconfig/commit/fc0a25eea9da244ee5853cbc068befeac9e37133))
+* really add the tsconfig ([e3629be](https://github.com/openapi-typescript-infra/coconfig/commit/e3629be79dd64d52bc67e928b21768cee5eefeae))
+
+
+### Features
+
+* upgrade coconfig infra ([888281b](https://github.com/openapi-typescript-infra/coconfig/commit/888281b9bb982a79c4ead60e1304f07a4cf1872d))
+
 # [4.6.0](https://github.com/openapi-typescript-infra/coconfig/compare/v4.5.0...v4.6.0) (2024-10-19)
 
 
