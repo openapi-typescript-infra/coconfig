@@ -58,7 +58,6 @@ Thumbs.db
 # Added by coconfig
 .eslintignore
 .npmignore
-tsconfig.json
 tsconfig.build.json
 .commitlintrc.json
 jest.config.cjs
