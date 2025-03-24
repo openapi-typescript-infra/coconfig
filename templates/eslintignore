@@ -1,6 +1,7 @@
 build/
 coverage
 jest.config.js
+vitest.config.?s
 .eslintrc.js
 coconfig.?s
 src/generated

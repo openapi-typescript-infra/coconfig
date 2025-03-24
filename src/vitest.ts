@@ -1,7 +1,7 @@
 import fs from 'fs';
 
 export function vitestConfig() {
-  // eslint-disable-next-line @typescript-eslint/no-var-requires
+  // eslint-disable-next-line @typescript-eslint/no-require-imports
   const { configDefaults, defineConfig } = require('vitest/config');
 
   const config: typeof configDefaults = {

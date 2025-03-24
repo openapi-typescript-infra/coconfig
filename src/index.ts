@@ -60,7 +60,7 @@ try {
     tsconfig.compilerOptions.module = 'Node16';
     tsconfig.compilerOptions.moduleResolution = 'node16';
   }
-} catch (error) {
+} catch {
   // Do nothing
 }
 
